@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="GIBDDBase_2024_C.cpp" />
+    <ClCompile Include="menu.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Task.MD" />
@@ -135,7 +136,9 @@
   <ItemGroup>
     <ClInclude Include="car.h" />
     <ClInclude Include="enums.h" />
+    <ClInclude Include="menu.h" />
     <ClInclude Include="penalty.h" />
+    <ClInclude Include="penaltyTypeStrings.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
