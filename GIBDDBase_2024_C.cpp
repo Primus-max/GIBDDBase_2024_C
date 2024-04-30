@@ -13,6 +13,8 @@ int main()
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
-    drawFrame(100, 10);
-    drawButtons();
+    initMenu();
+    //drawMenu();
+    /*drawFrame(100, 10);
+    drawButton();*/
 }

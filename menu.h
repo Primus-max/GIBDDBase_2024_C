@@ -3,12 +3,17 @@
 #include <iostream>
 using namespace std;
 
-struct  ButtonCoord
+struct  Button
 {
+	short id = 0;
 	short x = 0;
 	short y = 0;
+	short size = 0;
 };
 
+void initMenu();
 void drawFrame(int width, int height);
-void drawButtons();
-ButtonCoord calcCoordMenuItem(string& menuItem, int lastSize, int index);
+void drawButton(int x, int y, string& menuItem);
+void drawMenu();
+
+Button calcCoordMenuItem(string& menuItem, int index);
